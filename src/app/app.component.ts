@@ -10,5 +10,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pavanoriginals-web';
+  weclome="Hello, It's Me";
+  name = "pavan";
+  means="And I'a";
+  description="I'm a webdeveloper with experience over 2 years.";
+  description2="experties is to create a website design, Frontend design and backend design";
+  description3="many more....."
 }

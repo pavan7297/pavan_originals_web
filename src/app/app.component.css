@@ -1,7 +1,27 @@
 .main {
-    color: aliceblue;
+  color: aliceblue;
 }
 
-.section1 {
-    grid-template-columns: repeat(2, 1fr);
+.screen1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.screen1 .left {
+   position: relative;
+   width: 100%;
+   justify-content: space-between;
+   /* height: 100lvh; */
+   /* display: flex; */
+   align-items: center;
+   padding: 300px 10% 0;
+   font-size: 30px;
+}
+
+.screen1 .right{
+    background: url(../assets/images/check.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100lvh;
+    border-radius: 3rem;
 }

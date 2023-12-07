@@ -1,0 +1,33 @@
+.container {
+  /* background-color: antiquewhite; */
+}
+
+.container img {
+  width: 100%;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 35px;
+}
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+.section1 p {
+  font-family: "Whisper", cursive;
+  padding-top: 4in;
+  padding-bottom: 4in;
+  padding-right: 2rem;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.section1 h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  padding-top: 4in;
+  padding-bottom: 4in;
+}

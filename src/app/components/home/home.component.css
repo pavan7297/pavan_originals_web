@@ -1,3 +1,4 @@
+@import "primeicons/primeicons.css";
 .container {
   /* background-color: antiquewhite; */
 }
@@ -30,4 +31,73 @@
   font-size: 35px;
   padding-top: 4in;
   padding-bottom: 4in;
+}
+
+.section2 {
+  padding-bottom: 1in;
+}
+.card {
+  padding-top: 1in;
+  padding-bottom: 1in;
+}
+
+.card ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  
+} 
+
+.card li a{
+height: 26.0rem;
+width: 20rem;
+border: 1px solid whitesmoke;
+border-radius: 1rem;
+margin: 0.5rem;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+
+box-shadow: 5px 5px 10px #555;
+}
+
+.card .servicename{
+  /* justify-content: center; */
+text-align: center;
+padding: 1rem;
+background-color: transparent;
+text-wrap: pretty;
+font-weight: bold;
+color: rgb(92, 100, 204);
+}
+
+.card .description{
+  font-size: medium;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+ color: rgb(68, 65, 65);
+}
+
+.card li a:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.card li a img{
+object-fit: cover;
+height: 14.5rem;
+}
+
+.content{
+  margin-top: 0.3rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+  height: 7rem;
+}
+
+
+.section3 i{
+  font-size: 2.5rem;
 }

@@ -18,6 +18,6 @@ export class HomeComponent {
   icon: icon[] = [];
   constructor(private mData: MainserviceService) {
     this.data = mData.getservicemaindata();
-    this.icon = mData.getMainIcons();
+    // this.icon = mData.getMainIcons();
   }
 }
